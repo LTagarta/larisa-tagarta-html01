@@ -1,11 +1,21 @@
 .card {
-  width: 80%; 
+  width: 80%;
   margin: 25px auto;
   border: 1px solid #000;
   overflow: hidden;
 }
 
+
 .float-left {
   float: left;
+  clear: none;
 }
 
+.float-right {
+  float: right;
+  clear: none;
+}
+
+.float-left-last {
+  float: none;
+}
